@@ -19,3 +19,22 @@ print ( int("456"))
 a = int( input())
 b = int( input() )
 print (a + b)
+
+# floating point numbers
+a = float(input())
+
+# round to the integer
+a = round(input())
+a = round (4.3) # 4
+b = round (4.7) # 5
+
+# abs() or modulus
+# some math functions require to imoport math library
+# 2 ways to import functions
+
+import.math
+x= math.ceil (4.2) #5
+
+from math import ceil
+x= ceil(4.2) # 5
+
