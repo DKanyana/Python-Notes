@@ -22,6 +22,7 @@ print (a + b)
 
 # floating point numbers
 a = float(input())
+a = float(input("Please input a floating number:")) 
 
 # round to the integer
 a = round(input())
