@@ -1,0 +1,21 @@
+print (1 + 3)
+print (1 * 3)
+print (9 / 3) - # Division
+print (9 // 3) - # double forward slash is an integer division. it returns only the quotient of the division (i.e. no remainder)
+print (10 % 3)  # percent sign is a modulus operator. it gives the remainder of the left value divided by the right value
+print (3 ** 3) - # exponential function 3 to the power of 3
+print (' Hello World ')
+name = input() # get input from user
+print ('Hi beautiful' + name)
+
+# Can you single or double quotes to define a string
+singleq = '4'
+doubleq = "5"
+
+# int() converts string of digits into integer
+print ( int("456"))
+
+# get input in the form of integer
+a = int( input())
+b = int( input() )
+print (a + b)
