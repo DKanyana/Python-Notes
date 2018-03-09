@@ -1,0 +1,21 @@
+Statement
+Given a positive real number, print its first digit to the right of the decimal point.
+
+Example input
+1.79
+
+Example output
+7
+
+a = float(input()) # 4.789
+import math 
+
+frac=math.modf(a) # Using "modf(x)" function we are getting the fraction and integer part as 
+                  # a tuple of fraction part in index 0 and integer part in index 1.
+print (frac[0]) # 0.789
+print (frac[1]) # 4.0
+
+frac1=str(frac[0]) # As our o\p needs to produce the decimal alone so we are converting the fraction tuple alone 
+                   # in to a string 
+print("First digit after the decimal point is:", frac1[2]) # As our o\p needs to print the value after the decimal point, 
+                                                         # we are printing the 2nd index position of the fractional string
